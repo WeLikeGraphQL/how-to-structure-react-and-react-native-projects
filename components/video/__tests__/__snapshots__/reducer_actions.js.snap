@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Play 1st video 1`] = `
+Object {
+  "videoId1": "playing",
+}
+`;
+
+exports[`2. Play 2nd video 1`] = `
+Object {
+  "videoId1": "stopped",
+  "videoId2": "playing",
+}
+`;
+
+exports[`3. Play 3rd video 1`] = `
+Object {
+  "videoId1": "stopped",
+  "videoId2": "stopped",
+  "videoId3": "playing",
+}
+`;
+
+exports[`4. Play 1st video again 1`] = `
+Object {
+  "videoId1": "playing",
+  "videoId2": "stopped",
+  "videoId3": "stopped",
+}
+`;
+
+exports[`5. Stop 1st video 1`] = `
+Object {
+  "videoId1": "stopped",
+  "videoId2": "stopped",
+  "videoId3": "stopped",
+}
+`;

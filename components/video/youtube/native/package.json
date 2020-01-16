@@ -1,0 +1,20 @@
+{
+  "name": "react-native-video-youtube",
+  "version": "1.0.0",
+  "description": "React Native Youtube Component with internal state",
+  "main": "./youtube.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "graphan",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-youtube": "graphan/react-native-youtube"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8 < 17.0",
+    "react-dom": ">= 16.8 < 17.0",
+    "jest": ">= 23.6.0",
+    "react-redux": "^7.1.3"
+  }
+}

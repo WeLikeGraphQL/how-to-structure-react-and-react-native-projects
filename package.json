@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.0",
+  "main": " ",
+  "workspaces": {
+    "packages": [
+      "web-app",
+      "components",
+      "components/**/*",
+      "core",
+      "native_app"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  }
+}

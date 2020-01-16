@@ -1,0 +1,16 @@
+{
+  "name": "our-button",
+  "version": "1.0.0",
+  "description": "Our button component",
+  "main": "button",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "graphan",
+  "license": "MIT",
+  "peerDependencies": {
+    "jest": ">= 23.6.0",
+    "react": ">= 16.8 < 17.0",
+    "react-dom": ">= 16.8 < 17.0"
+  }
+}
