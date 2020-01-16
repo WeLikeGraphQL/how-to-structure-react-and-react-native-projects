@@ -2,14 +2,21 @@
 
 > This a result of experience + Research & Development
 
-It's still **Work In Progress**, although, we believe that it is already a quite complete example regarding how to structure React and React Native projects.
+It's still **Work In Progress**, although, we believe that it is already a quite complete example.
 
 ## Running the app
 
 ```
 yarn install
+
+// starts Next.js app
 cd web_app && npm run dev
-cd native_app && npm run ios
+
+// starts React Native app in iOS Simulator
+cd native_app
+cd ios && pod install
+cd .. && npm run ios
+
 // android not ready yet
 ```
 
